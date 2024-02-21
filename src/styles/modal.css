@@ -1,0 +1,30 @@
+.modal-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  background: white;
+  opacity: 0.5;
+  filter: blur(10px);
+}
+
+.modal-container {
+  background: white;
+  min-width: 500px;
+  height: fit-content;
+  max-height: 50vh;
+  max-width: 90vw;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
